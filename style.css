@@ -1,0 +1,143 @@
+.btn_main
+{
+  display: inline-block; 
+  cursor:pointer; 
+  padding: 15px; 
+  margin: 5px; 
+  border-radius: 5px; 
+  color: #017572; 
+  background-color: #CFCFCF;
+  font-size: 20px;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.btn_descr
+{
+  display: inline-block; 
+  font-size: 15px;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+table 
+{
+  border-collapse: collapse;
+}
+
+th
+{
+  border:2px solid #7f7f7f;
+  padding: 5px;
+}
+
+td
+{
+  border:1px dotted #7f7f7f;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+.newuser
+{
+  font-size: 20px;
+  margin-top: 20px;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.newuser_info
+{
+  padding: 10px;
+  background-color: #DFDFDF;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  text-align: left;
+  border-radius: 5px; 
+}
+
+.newuser_text
+{
+  margin: 5px;
+  padding: 5px;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  width:20%;
+}
+
+
+div.divTable
+{
+  display:  table;
+  width:100%;
+  background-color:#eee;
+  border:1px solid  #666666;
+  border-spacing:5px;/*cellspacing:poor IE support for  this*/
+ /* border-collapse:separate;*/
+}
+
+div.divHead
+{
+ display:table-header-group;
+ width:auto;
+ margin:50px;
+ border:2px solid  #777777;
+}
+
+div.divRow
+{
+ display:table-row;
+ width:auto;
+}
+
+div.divCell
+{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;
+  width:25%;
+  background-color:#ccc;
+}
+
+.inpText
+{
+  width:90%;
+  margin:5px 5%;
+}
+
+table.res {
+   border-collapse:collapse;
+}
+tr.res {
+  margin:0;
+  padding:0;  
+}
+td.res {
+  font: 0.8em Verdana;
+  margin:0;
+  padding:0 0.5em 0 0.5em;  
+  border-bottom: 1px solid #000;
+}
+span.imgres {
+  margin: 1px 0px;
+  width: 18px;
+  height: 18px;
+  background: transparent url("res_all.png") no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+}
+div.build {
+  margin:0px;
+  padding:1px;
+  float : left;
+  text-align: center;
+  width : 45px;
+  height : 46px; 
+/*  overflow: hidden;*/
+  border: 1px solid #000;
+}
+div.buildlvl {
+  margin-top: 34px;
+  padding: 1px 0px 0px;
+  text-align: center;
+  font: 10px/11px Arial,"Helvetica CY","Nimbus Sans L",sans-serif;
+  color: #000;
+  width: 22px;
+  background: none #8FBC8F;
+  display: inline-block;
+}
